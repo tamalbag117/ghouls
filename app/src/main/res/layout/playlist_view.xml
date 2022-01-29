@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="3dp"
+    app:strokeColor="@color/touka_background"
+    android:background="@color/black"
+    android:layout_margin="10dp">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/playlistImagePV"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:src="@drawable/music_screen_icon"
+        style="@style/curved"
+        android:background="@color/black"
+        android:contentDescription="@string/song_image">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/playlist_namePV"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/playlist_name"
+        android:contentDescription="@string/playlist_name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        >
+
+    </TextView>
+    <ImageButton
+        android:id="@+id/playlistDELbuttonPV"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:background="@android:color/transparent"
+        app:tint="@color/touka_background"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="130dp"
+        android:contentDescription="@string/playlist_del">
+
+    </ImageButton>
+
+</com.google.android.material.card.MaterialCardView>

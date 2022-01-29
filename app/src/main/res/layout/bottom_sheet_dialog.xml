@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/min30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_timer_24"
+
+            app:tint="@color/touka_background"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/min_30">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_30"
+            android:textSize="20sp"
+            android:textColor="@color/touka_background"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_timer_24"
+            app:tint="@color/touka_background"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/min_60">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_60"
+            android:textSize="20sp"
+            android:textColor="@color/touka_background"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/min180"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_timer_24"
+
+            app:tint="@color/touka_background"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/min_180">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_180"
+            android:textSize="20sp"
+            android:textColor="@color/touka_background"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
